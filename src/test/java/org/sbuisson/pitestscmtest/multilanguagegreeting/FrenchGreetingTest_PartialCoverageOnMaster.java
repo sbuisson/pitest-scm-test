@@ -22,4 +22,9 @@ public class FrenchGreetingTest_PartialCoverageOnMaster {
         assertEquals("salut, le chien", greeting.greet("le chien"));
     }
 
+    @Test
+    public void should_ask_if_someone() {
+        assertEquals("Y'a t-il quelqu'un?", greeting.greet(""));
+    }
+
    }
