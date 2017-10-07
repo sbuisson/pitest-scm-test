@@ -6,6 +6,14 @@
     <groupId>org.sbuisson</groupId>
     <artifactId>pitest-scm-test</artifactId>
     <version>1.0-SNAPSHOT</version>
+
+    <scm>
+        <url>https://github.com/sarahBuisson/pitest-scm-test</url>
+        <connection>scm:git:git@github.com:sarahBuisson/pitest-scm-test.git</connection>
+        <developerConnection>scm:git:git@github.com:sarahBuisson/pitest-scm-test.git</developerConnection>
+        <tag>HEAD</tag>
+    </scm>
+
     <dependencies>
         <dependency>
             <groupId>junit</groupId>
@@ -14,6 +22,7 @@
             <scope>test</scope>
         </dependency>
     </dependencies>
+
     <build>
         <plugins>
             <plugin>
