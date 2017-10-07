@@ -21,7 +21,9 @@ public class EnglishGreeting_FullCoverageOnMaster extends Greeting {
         } else {
             message = "hy, ";
         }
-        message += who;
+        if(who!=null){
+            message += who;
+        }
         return message;
     }
 }
